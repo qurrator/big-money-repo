@@ -1,0 +1,74 @@
+1. DAX Functions (Data Analysis Expressions)
+
+Aggregation Functions
+SUM: Adds up all values in a column.
+AVERAGE: Calculates the average of values in a column.
+COUNT: Counts the number of values in a column.
+MIN: Returns the smallest value in a column.
+MAX: Returns the largest value in a column.
+
+
+Date and Time Functions
+YEAR: Extracts the year from a date.
+MONTH: Extracts the month from a date.
+DAY: Extracts the day from a date.
+TODAY: Returns the current date.
+DATEDIFF: Calculates the difference between two dates.
+
+
+Logical Functions
+IF: Checks a condition and returns one value if true and another if false.
+AND: Returns TRUE if all conditions are true.
+OR: Returns TRUE if at least one condition is true.
+NOT: Reverses the logical value of a condition.
+
+
+Text Functions
+CONCATENATE: Combines two text strings into one.
+LEFT: Returns the left part of a text string.
+RIGHT: Returns the right part of a text string.
+LEN: Returns the length of a text string.
+
+
+Filter Functions
+FILTER: Returns a table that represents a subset of another table.
+CALCULATE: Evaluates an expression in a modified filter context.
+ALL: Removes filters from a table or column.
+
+
+2. Power Query Functions
+
+Text Functions
+Text.Contains: Checks if a text value contains a substring.
+Text.Start: Returns a specified number of characters from the start of a text string.
+Text.Length: Returns the number of characters in a text string.
+Date Functions
+Date.AddDays: Adds a specified number of days to a date.
+Date.From: Converts a value to a date.
+
+Number Functions
+Number.Round: Rounds a number to a specified number of decimal places.
+Number.Abs: Returns the absolute value of a number.
+
+
+List Functions
+List.Contains: Checks if a list contains a specified value.
+List.Sum: Calculates the sum of a list of numbers.
+
+3. Visualization Functions
+
+While Power BI doesn't have "functions" for visualizations like DAX or Power Query, it does offer a variety of visual elements:
+
+Charts: Bar, line, pie charts, etc.
+Tables: Displaying data in tabular form.
+Maps: Geographical visualizations.
+Cards: Displaying single values or KPIs.
+
+
+4. Statistical Functions
+STDEV.P: Calculates the standard deviation for a population.
+STDEV.S: Calculates the standard deviation for a sample.
+
+5. Time Intelligence Functions
+TOTALYTD: Calculates the year-to-date value.
+SAMEPERIODLASTYEAR: Compares data to the same period in the previous year.
